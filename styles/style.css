@@ -1,7 +1,8 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
@@ -26,6 +27,7 @@ header {
   justify-content: center;
   padding-top: 10px;
 }
+
 /* navigation bar */
 nav {
   display: flex;
@@ -80,9 +82,9 @@ a {
   height: 56px;
 }
 .player-name {
-  /* padding-left: 15px; */
   margin-left: 16px;
   font-size: 18px;
+  font-weight: 500;
 }
 .top-players h2 {
   margin-top: -10px;
@@ -114,6 +116,7 @@ hr {
 }
 .blogs > span h3 {
   font-size: 20px;
+  font-weight: 500;
 }
 .author {
   color: #562eff;
@@ -125,59 +128,65 @@ hr {
 }
 
 /* courses */
-.courses{
-    margin-top: -5px;
+.course-section-title {
+  text-align: center;
+  color: #562eff;
+  font-size: 24px;
 }
-.latest-courses{
-    display: flex;
-    justify-content: space-between;
-    
+.courses {
+  margin-top: -5px;
 }
-.course{
-    background: linear-gradient(white, #fdf7f7);
-    padding: 20px;
-    border-radius: 10px;
+.latest-courses {
+  display: flex;
+  justify-content: space-around;
+}
+.course {
+  background: linear-gradient(white, #fdf7f7);
+  padding: 20px;
+  padding-left: 5px;
+  border-radius: 10px;
 }
 .course-image {
   width: 224.38px;
   height: 105.51px;
   margin-bottom: -20px;
 }
-.course-author{
-    color: #ED6B4F;
-    font-weight: 400;
-    margin-top: -10px;
+.course-author {
+  color: #ed6b4f;
+  font-weight: 400;
+  margin-top: -10px;
 }
-.course h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: 500;;
+.course h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
 
+/* Ratings */
+.fa-solid {
+  color: #ffc014;
+  height: 12.25px;
+  width: 11.75px;
+  padding-right: 2px;
 }
-.fa-solid{
-    color: #FFC014;
-    height: 12.25px;
-    width: 11.75px;
-    padding-right: 2px;
+.empty {
+  color: #aeaeae;
 }
-.empty{
-    color: #AEAEAE;
+.ratings {
+  display: flex;
+  justify-content: space-between;
 }
-.ratings{
-    display: flex;
-    justify-content: space-between;
-}
-.duration{
-    background: #FFE4E8;
-    padding: 0 5px;
-    border-radius: 25px;
+.duration {
+  background: #ffe4e8;
+  padding: 0 5px;
+  border-radius: 25px;
 }
 .clock {
-    height: 20.03px;
-    width: 20.03px;
-    vertical-align: text-top;
-    margin-top: 1px;
+  height: 20.03px;
+  width: 20.03px;
+  vertical-align: text-top;
+  margin-top: 1px;
 }
-.hour{
-    color: #FF4A60
+.hour {
+  color: #ff4a60;
 }
