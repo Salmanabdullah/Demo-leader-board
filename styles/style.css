@@ -1,6 +1,7 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
@@ -16,6 +17,7 @@ main {
   width: 870px;
   padding: 30px;
   margin: 30px auto;
+  border-radius: 5px;
 }
 
 header {
@@ -60,9 +62,9 @@ a {
 }
 
 /* top players */
-.section-title{
-    color: #562EFF;
-    font-size: 24px;
+.section-title {
+  color: #562eff;
+  font-size: 24px;
 }
 .players {
   display: grid;
@@ -82,8 +84,8 @@ a {
   margin-left: 16px;
   font-size: 18px;
 }
-.top-players h2{
-    margin-top: -10px;
+.top-players h2 {
+  margin-top: -10px;
 }
 
 hr {
@@ -92,32 +94,90 @@ hr {
 }
 
 /* blog section */
-.top-blogs{
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 30px;
+.top-blogs {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
-.blogs img{
-    height: 117px;
-    width: 177px;
+.blogs img {
+  height: 117px;
+  width: 177px;
 }
-.blogs{
-    display: flex;
+.blogs {
+  display: flex;
 }
-.blogs> span{
- margin-top: -20px;
- margin-left: 20px;
- margin-right: 20px;
+.blogs > span {
+  margin-top: -20px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
-.blogs>span h3{
-    font-size: 20px;
+.blogs > span h3 {
+  font-size: 20px;
 }
-.author{
-    color: #562EFF;
+.author {
+  color: #562eff;
 }
-.blogs>span>h5{
+.blogs > span > h5 {
+  margin-top: -5px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* courses */
+.courses{
     margin-top: -5px;
-    font-size: 16px;
+}
+.latest-courses{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.course{
+    background: linear-gradient(white, #fdf7f7);
+    padding: 20px;
+    border-radius: 10px;
+}
+.course-image {
+  width: 224.38px;
+  height: 105.51px;
+  margin-bottom: -20px;
+}
+.course-author{
+    color: #ED6B4F;
     font-weight: 400;
+    margin-top: -10px;
+}
+.course h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;;
+
+}
+.fa-solid{
+    color: #FFC014;
+    height: 12.25px;
+    width: 11.75px;
+    padding-right: 2px;
+}
+.empty{
+    color: #AEAEAE;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+}
+.duration{
+    background: #FFE4E8;
+    padding: 0 5px;
+    border-radius: 25px;
+}
+.clock {
+    height: 20.03px;
+    width: 20.03px;
+    vertical-align: text-top;
+    margin-top: 1px;
+}
+.hour{
+    color: #FF4A60
 }
