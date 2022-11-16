@@ -218,15 +218,15 @@ Media queries
 .player, .blogs,.latest-courses{
   flex-direction: column;
 }
-
+.latest-courses{
+  align-items: center;
+  
+}
 .blogs>span{
   margin: 0;
 }
 .blogs>span>h3 br{
   display: none;
-}
-.course{
-  width: 77%;
 }
 .blog-title{
   text-align: left;
@@ -234,6 +234,9 @@ Media queries
 .top-players{
   position: relative;
   left: -25px;
+}
+.course{
+  background: none;
 }
 
 }
